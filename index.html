@@ -13,9 +13,14 @@
     <link rel="stylesheet" type="text/css" href="style_index.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!--jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+	<!--Bootstrap Javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
   </head>
 
@@ -33,44 +38,47 @@
 			</div>
 		</div>	
 
-		<div class="container" id="barra">
-	    	<div class="row">
+		<div class="container">
+	  		<div class="row">
 	    		<div class="col-sm">
 
-					<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-					  <a class="navbar-brand" href="#"></a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
-					  </button>
+					<nav class="navbar navbar-default">
+			  			<div class="container-fluid">
+			  				<div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>	        
+						      </button>
+						      <p class="navbar-text">Menu</p>
+						      
+						    </div>
 
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
-					      <li class="nav-item active">
-					        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#portafo">Portfolio</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#acerca">About me</a>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#encuentrame">Contact</a>
-					      </li>
-					     </ul>
-					    </div>
-					   </nav>
-				</div>
-			</div>
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      				<ul class="nav navbar-nav">
+			       				 	<li class="active"><a href="#first">Home<span class="sr-only">(current)</span></a></li>
+			        				<li><a href="#portafo">Portfolio</a></li>
+			        				<li><a href="#acerca">About me</a></li>
+			        				<li><a href="#encuentrame">Contact</a></li>
+			        			</ul>
+			        		</div>
+			        	</div>
+			        </nav>	    			
+	    		</div>
+	  		</div>
 		</div>
+
 	</header>
 
 	<section>
 		<div class="container" id="primer">
 	    	<div class="row">
 		    	<div class="col-sm">
-					
+						<br>
 					  <h1 class="display-3">Hello!</h1>
 					  <p class="lead">My name is Miguel Angel Cerón, i´m from Colombia and i´m studying for Web Developer. Here you can find some relevant information about my projects and me.</p>
+					  <br>
 					  <hr class="my-4">					  
 					
 				</div>
@@ -82,7 +90,7 @@
 	    	<div class="row">
 		    	<div class="col-sm">
 		    		<h1 class="display-3"><a name="portafo" id="portafo"></a> Portfolio</h1>
-		    		
+		    		<br>
 		    	</div>
 		    </div>
 		</div>
@@ -95,10 +103,10 @@
     	<div class="row">
     		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			    <div class="hovereffect">
-			        <img class="img-responsive" src="https://image.ibb.co/iigTh6/PORWIP350x200.jpg" alt="">
+			        <img class="img-responsive" src="https://image.ibb.co/nQBLfR/mppreview.jpg" alt="">
 			            <div class="overlay">
 			                <h2>My Portfolio</h2>
-							<p> Web to show my work <br>
+							<p>
 								<a href="https://toroide.github.io/torioide.github.io/">GO</a>
 							</p>
 			            </div>
@@ -107,10 +115,10 @@
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			    <div class="hovereffect">
-			        <img class="img-responsive" src="https://image.ibb.co/nMEQUm/SWIP350x200.jpg.jpg" alt="">
+			        <img class="img-responsive" src="https://image.ibb.co/jrWQEm/wip.jpg" alt="">
 			            <div class="overlay">
 			                <h2>New Project</h2>
-							<p>Space for new project<br>
+							<p>
 								<a href="#">GO</a>
 							</p>
 			            </div>
@@ -119,10 +127,10 @@
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			    <div class="hovereffect">
-			        <img class="img-responsive" src="https://image.ibb.co/nMEQUm/SWIP350x200.jpg" alt="">
+			        <img class="img-responsive" src="https://image.ibb.co/gKa5fR/wipazul.jpg" alt="">
 			            <div class="overlay">
 			                <h2>New Project</h2>
-							<p>Space for new project<br>
+							<p>
 								<a href="#">GO</a>
 							</p>
 			            </div>
@@ -131,10 +139,10 @@
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			    <div class="hovereffect">
-			        <img class="img-responsive" src="https://image.ibb.co/nMEQUm/SWIP350x200.jpg" alt="">
+			        <img class="img-responsive" src="https://image.ibb.co/i0ftZm/wiprojo.jpg" alt="">
 			            <div class="overlay">
 			                <h2>New Project</h2>
-							<p>Space for new project<br>
+							<p>
 								<a href="#">GO</a>
 							</p>
 			            </div>
@@ -148,6 +156,7 @@
 	<div class="container">
     	<div class="row">
     		<div class="col-sm">
+    			<br>
     			<hr class="my-4">
     		</div>
     	</div>
@@ -157,6 +166,7 @@
     	<div class="row">
     		<div class="col-sm">
     			<h1 class="display-3"><a name="acerca" id="acerca"></a> About me</h1>
+    			<br>
     		</div>
     	</div>
     </div>
@@ -186,37 +196,40 @@
     		</div>
     	</div>
     </div>
+    <br>
 	</section>
 
 	<!-- Footer -->
 	<footer>
 		<div class="container" id="pie">
 	    	<div class="row">
-		    	<div class="col-sm-6">
+		    	<div class="col-sm-4">
 		    		<ul class="nodot">
-		    			<li><a name="encuentrame" id="encuentrame"><strong>Contact</strong></li>
-		    			<li id="reference">+57 3174245543</li>		    			
-		    			<li><a href="#" class="fa fa-google"><a href="#" class="fa fa-skype"></a></a><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-linkedin"></a></li>
-
+		    			<li><a name="encuentrame" id="encuentrame"><strong>Contact</strong></a></li>
+		    			<li id="reference">+57 3174245543</li>	
+		    			<li id="reference">miguelangelceronx@gmail.com</li>		    			
 		    		</ul>
 		    	</div>
-
-	
-		    	<div class="col-sm-6">
+		    
+		
+		    	<div class="col-sm-4">
+		    		<p><br></p>
+		    		<a href="#" class="fa fa-google"><a href="#" class="fa fa-skype"></a></a><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-linkedin"></a>
+		    	</div>
+		    
+		
+		    	<div class="col-sm-4">
 		    		<p><br><br><br></p>		    		
 		    		<p id="gracias">Thanks to <a href="www.makeitreal.camp">Make It Real Camp</a></p>
 		    		<p id="derechos">Copyright © 2017 Miguel Cerón</p>
 		    	</div>
-		    </div>
-		</div>	
-
-
+		  	</div>
+		</div>
 
 	</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
